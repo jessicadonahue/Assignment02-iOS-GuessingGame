@@ -16,6 +16,9 @@
 		22F0457B1E6DC61A0041DC9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22F045791E6DC61A0041DC9C /* LaunchScreen.storyboard */; };
 		22F045861E6DC61A0041DC9C /* AlienTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F045851E6DC61A0041DC9C /* AlienTests.m */; };
 		22F045911E6DC61A0041DC9C /* AlienUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F045901E6DC61A0041DC9C /* AlienUITests.m */; };
+		22F045A01E6DCA680041DC9C /* HintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F0459F1E6DCA680041DC9C /* HintViewController.m */; };
+		22F045E11E70F37B0041DC9C /* alien.png in Resources */ = {isa = PBXBuildFile; fileRef = 22F045E01E70F37B0041DC9C /* alien.png */; };
+		22F0462C1E734AA20041DC9C /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = 22F0462B1E734AA20041DC9C /* win.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,10 @@
 		22F0458C1E6DC61A0041DC9C /* AlienUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlienUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22F045901E6DC61A0041DC9C /* AlienUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlienUITests.m; sourceTree = "<group>"; };
 		22F045921E6DC61A0041DC9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22F0459E1E6DCA680041DC9C /* HintViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HintViewController.h; sourceTree = "<group>"; };
+		22F0459F1E6DCA680041DC9C /* HintViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HintViewController.m; sourceTree = "<group>"; };
+		22F045E01E70F37B0041DC9C /* alien.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alien.png; sourceTree = "<group>"; };
+		22F0462B1E734AA20041DC9C /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = win.wav; path = ../../../../../../Downloads/win.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,14 +111,18 @@
 		22F045671E6DC6190041DC9C /* Alien */ = {
 			isa = PBXGroup;
 			children = (
+				22F0462B1E734AA20041DC9C /* win.wav */,
 				22F0456B1E6DC6190041DC9C /* AppDelegate.h */,
 				22F0456C1E6DC6190041DC9C /* AppDelegate.m */,
 				22F0456E1E6DC6190041DC9C /* FirstViewController.h */,
 				22F0456F1E6DC6190041DC9C /* FirstViewController.m */,
 				22F045711E6DC6190041DC9C /* SecondViewController.h */,
 				22F045721E6DC6190041DC9C /* SecondViewController.m */,
+				22F0459E1E6DCA680041DC9C /* HintViewController.h */,
+				22F0459F1E6DCA680041DC9C /* HintViewController.m */,
 				22F045741E6DC6190041DC9C /* Main.storyboard */,
 				22F045771E6DC6190041DC9C /* Assets.xcassets */,
+				22F045E01E70F37B0041DC9C /* alien.png */,
 				22F045791E6DC61A0041DC9C /* LaunchScreen.storyboard */,
 				22F0457C1E6DC61A0041DC9C /* Info.plist */,
 				22F045681E6DC6190041DC9C /* Supporting Files */,
@@ -252,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				22F0457B1E6DC61A0041DC9C /* LaunchScreen.storyboard in Resources */,
+				22F045E11E70F37B0041DC9C /* alien.png in Resources */,
 				22F045781E6DC61A0041DC9C /* Assets.xcassets in Resources */,
+				22F0462C1E734AA20041DC9C /* win.wav in Resources */,
 				22F045761E6DC6190041DC9C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22F045A01E6DCA680041DC9C /* HintViewController.m in Sources */,
 				22F045731E6DC6190041DC9C /* SecondViewController.m in Sources */,
 				22F0456D1E6DC6190041DC9C /* AppDelegate.m in Sources */,
 				22F045701E6DC6190041DC9C /* FirstViewController.m in Sources */,

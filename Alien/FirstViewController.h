@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SecondViewController.h"
+#import "HintViewController.h"
 
-@interface FirstViewController : UIViewController
+@interface FirstViewController : UIViewController <UIPickerViewDataSource, UIPickerViewDelegate,UITabBarControllerDelegate>
 
+@property(strong, nonatomic) SecondViewController *svc;
+@property(strong, nonatomic) HintViewController *hvc;
 
 @end
 

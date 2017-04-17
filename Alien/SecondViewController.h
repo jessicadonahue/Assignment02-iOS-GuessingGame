@@ -9,7 +9,14 @@
 #import <UIKit/UIKit.h>
 
 @interface SecondViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *winOrNot;
 
+@property (weak, nonatomic) IBOutlet UITextField *youGuessed;
+
+@property BOOL win;
 
 @end
 
+@interface UIApplication (extended)
+-(void) terminateWithSuccess;
+@end
